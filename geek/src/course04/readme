@@ -1,0 +1,44 @@
+
+01部分
+
+priority queue
+1.插入操作：O(1)
+2.取出操作：O(log N) 按元素的优先级取出
+3.底层具体实现的数据结构较为多样和复杂：heap bst(binary search tree) (平衡搜索树)AVL 红黑树
+
+当做一个队列使用
+
+stack
+addElement()
+    里面调用add() 方法分析
+        判断数组长度
+            数组长度不够时，新开了一个数组（默认是原来的两倍）grow()，
+            够的话就放入，元素个数加1
+pop()
+    peek()
+    removeElementAt()
+
+python
+
+heapq
+container 高性能容器
+
+小结
+1.stack queue deque 的原理和操作复杂度
+2.PriorityQueue的特点和操作复杂度
+3.查询stack queue deque priorityQueue 的系统接口的方法
+
+02 部分
+
+最近相关性----栈（先来后到，从内到外，从外到内）
+
+关于使用两个栈的应用场景
+
+1.使用栈实现队列
+
+2.使用队列实现栈（使用两个队列 每次进出的时候先去到另一个队列，使顺序符合要求）
+
+3.实现最小栈（能够在常数时间查询到最小的元素）
+
+滑动窗口问题
+使用队列进行求解
