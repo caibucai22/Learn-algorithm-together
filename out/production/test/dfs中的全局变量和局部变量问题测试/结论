@@ -1,5 +1,0 @@
-破案了
-原因和是不是全局变量还是局部变量无关，
-
-ret.add(path)是浅拷贝 只是将ret[i] 指向了path的内存地址，path的后续变化会影响到ret，也就是变化是同步的
-ret.add(new ArrayList(path))是深拷贝 新建了一个对象，后续的path变化不会影响到之前已添加到ret的结果
