@@ -34,5 +34,8 @@ public class HashMapTest01 {
         map.put('1',2);
         boolean allOne = !map.isEmpty() && map.entrySet().stream().filter(o -> o.getValue() == 1).count() == map.size();
         System.out.println(allOne);
+        Character key = map.entrySet().stream().max((o1, o2) -> o1.getValue() - o2.getValue()).get().getKey();
+        System.out.println(key);
+
     }
 }
