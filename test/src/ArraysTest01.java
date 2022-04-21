@@ -65,6 +65,7 @@ public class ArraysTest01 {
         int n = 53;
 
         int m = Arrays.stream(test).reduce(0, (sum, cur) -> sum += cur);
+//        Arrays.stream(test).max().getAsInt();
         int total = mean * (n + test.length);
 
         System.out.println(m + " " + total);

@@ -9,12 +9,12 @@ public class Leetcode518 {
 
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution518 solution = new Solution518();
         int[] coins = {1,2,5};
         solution.change(5,coins);
     }
 }
-class Solution {
+class Solution518 {
     public int change(int amount, int[] coins) {
 
         // 完全背包问题

@@ -18,12 +18,12 @@ public class LeetCode747 {
         int i = Arrays.binarySearch(test,1);
         System.out.printf("%d ",i);
 
-//        Solution solution = new Solution();
+//        Solution747 solution = new Solution747();
 
 //        System.out.printf("%d\n", solution.dominantIndex(test));
     }
 }
-class Solution {
+class Solution747 {
     public int dominantIndex(int[] nums) {
         // 1. 排序
         // 如果他是第2大 的2倍，那么他就 至少是数组中每个其他数字的两倍
