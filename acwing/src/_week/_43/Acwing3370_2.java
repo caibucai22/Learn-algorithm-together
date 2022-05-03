@@ -1,6 +1,6 @@
-/**
+package _week._43; /**
  * @author Csy
- * @Classname Acwing3370_2
+ * @Classname _week._43.Acwing3370_2
  * @date 2022-03-15 23:35
  * @Description TODO
  */

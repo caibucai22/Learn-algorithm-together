@@ -1,8 +1,10 @@
+package _week._43;
+
 import java.util.Scanner;
 
 /**
  * @author Csy
- * @Classname Acwing3358_2
+ * @Classname _week._43.Acwing3358_2
  * @date 2022-03-14 23:18
  * @Description TODO
  */

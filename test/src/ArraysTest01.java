@@ -1,9 +1,6 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**
@@ -34,6 +31,51 @@ public class ArraysTest01 {
         }
     }
 
+
+    @Test
+    public void test5() {
+        String[] log = {"dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"};
+        List<String> letLog = new ArrayList<>();
+        List<String> digLog = new ArrayList<>();
+        List<String> ret = new ArrayList<>();
+        for (String s : log) {
+            int idx = s.indexOf(' ');
+            String m = s.substring(0, idx);
+            if (m.contains("dig")) {
+                digLog.add(s);
+            } else {
+                letLog.add(s);
+            }
+        }
+        Collections.sort(letLog, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                int idx1 = o1.indexOf(' ');
+                int idx2 = o2.indexOf(' ');
+                String m1 = o1.substring(0, idx1);
+                String m2 = o2.substring(0, idx2);
+                String s1 = o1.substring(idx1);
+                String s2 = o2.substring(idx2);
+//                System.out.println(m1 + " " + s1);
+//                System.out.println(m2 + " " + s2);
+                if (s1.equals(s2)) {
+                    return m1.compareTo(m2);
+                } else {
+                    return s1.compareTo(s2);
+                }
+            }
+        });
+        for (int i = 0; i < letLog.size(); i++) {
+            ret.add(letLog.get(i));
+        }
+
+        for (int i = 0; i < digLog.size(); i++) {
+            ret.add(digLog.get(i));
+        }
+
+        ret.forEach(o -> System.out.println(o));
+
+    }
 
     @Test
     public void test1() {
@@ -75,7 +117,8 @@ public class ArraysTest01 {
     @Test
     public void test4() {
         List<Integer> list = new ArrayList<>();
-        list.add(1);list.add(2);
+        list.add(1);
+        list.add(2);
         int[] ret = new int[list.size()];
 
         list.stream().forEach(o -> {
