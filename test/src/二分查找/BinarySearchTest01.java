@@ -30,7 +30,6 @@ public class BinarySearchTest01 {
         int l = 0, r = a.length - 1;
         while (l < r) {
             int mid = l + (r - l >> 1);
-            // 找a中最后一个小于t的
             if (a[mid] >= target) r = mid;
             else l = mid + 1;
         }
@@ -41,7 +40,6 @@ public class BinarySearchTest01 {
         int l = 0, r = a.length - 1;
         while (l < r) {
             int mid = l + (r - l + 1 >> 1);
-            // 找a中最后一个小于t的
             if (a[mid] <= target) l = mid;
             else r = mid - 1;
         }
