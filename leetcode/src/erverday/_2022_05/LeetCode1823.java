@@ -1,17 +1,19 @@
+package erverday._2022_05;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
  * @author Csy
- * @Classname LeetCode1832
+ * @Classname erverday._2022_05.LeetCode1823
  * @date 2022-05-04 17:06
  * @Description TODO
  */
-public class LeetCode1832 {
+public class LeetCode1823 {
 
     public static void main(String[] args) {
         int n = 5, k = 2;
-        Solution1832 s = new Solution1832();
+        Solution1823 s = new Solution1823();
 //        公式法
         int theWinner = s.findTheWinner(n, k);
         System.out.println(theWinner);
@@ -23,7 +25,7 @@ public class LeetCode1832 {
 
 }
 
-class Solution1832 {
+class Solution1823 {
     public int findTheWinner2(int n, int k) {
         // 用队列进行模拟
         Deque<Integer> q = new ArrayDeque<>();

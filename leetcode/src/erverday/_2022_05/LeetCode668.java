@@ -1,6 +1,8 @@
+package erverday._2022_05;
+
 /**
  * @author Csy
- * @Classname LeetCode668
+ * @Classname erverday._2022_05.LeetCode668
  * @date 2022-05-18 21:51
  * @Description TODO
  */

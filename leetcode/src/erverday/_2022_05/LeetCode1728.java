@@ -1,3 +1,5 @@
+package erverday._2022_05;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
@@ -5,7 +7,7 @@ import java.util.Queue;
 
 /**
  * @author Csy
- * @Classname LeetCode1728
+ * @Classname erverday._2022_05.LeetCode1728
  * @date 2022-05-10 12:30
  * @Description TODO https://leetcode.cn/problems/cat-and-mouse-ii/
  */

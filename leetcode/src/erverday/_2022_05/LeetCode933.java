@@ -1,9 +1,11 @@
+package erverday._2022_05;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
  * @author Csy
- * @Classname LeetCode933
+ * @Classname erverday._2022_05.LeetCode933
  * @date 2022-05-06 14:06
  * @Description TODO 最近的请求次数
  */

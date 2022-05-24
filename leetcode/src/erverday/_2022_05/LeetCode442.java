@@ -1,9 +1,11 @@
+package erverday._2022_05;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Csy
- * @Classname LeetCode442
+ * @Classname erverday._2022_05.LeetCode442
  * @date 2022-05-08 23:19
  * @Description TODO https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
  */

@@ -1,10 +1,12 @@
+package erverday._2022_05;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 /**
  * @author Csy
- * @Classname LeetCode1305
+ * @Classname erverday._2022_05.LeetCode1305
  * @date 2022-05-01 16:26
  * @Description TODO
  */

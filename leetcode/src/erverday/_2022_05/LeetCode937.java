@@ -1,8 +1,10 @@
+package erverday._2022_05;
+
 import java.util.*;
 
 /**
  * @author Csy
- * @Classname LeetCode937
+ * @Classname erverday._2022_05.LeetCode937
  * @date 2022-05-03 13:01
  * @Description TODO
  */

@@ -1,6 +1,8 @@
+package erverday._2022_05;
+
 /**
  * @author Csy
- * @Classname LeetCode591
+ * @Classname erverday._2022_05.LeetCode591
  * @date 2022-05-02 13:33
  * @Description TODO 更多测试用例 见LeetCode
  */

@@ -1,9 +1,11 @@
+package 面试题;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Csy
- * @Classname LeetCode0406
+ * @Classname 面试题.LeetCode0406
  * @date 2022-05-16 15:52
  * @Description TODO
  */
@@ -31,5 +33,24 @@ class Solution0406 {
         inOrder(root.left);
         list.add(root.val);
         inOrder(root.right);
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 }
