@@ -111,6 +111,8 @@ public class ArraysTest01 {
         int total = mean * (n + test.length);
 
         System.out.println(m + " " + total);
+
+        Arrays.stream(test).filter(o -> o<=1).count();
     }
 
 

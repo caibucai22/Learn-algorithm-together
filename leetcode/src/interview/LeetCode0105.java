@@ -1,4 +1,4 @@
-package 面试题;
+package interview;
 
 /**
  * @author Csy
@@ -6,19 +6,19 @@ package 面试题;
  * @date 2022-05-13 13:33
  * @Description TODO
  */
-public class 一次编辑 {
+public class LeetCode0105 {
 
     public static void main(String[] args) {
 
         String a = "intention";
         String b = "execution";
-        Solution s = new Solution();
+        Solution0105 s = new Solution0105();
         boolean b1 = s.oneEditAway(a, b);
     }
 
 }
 
-class Solution {
+class Solution0105 {
     public boolean oneEditAway(String first, String second) {
         // 可以用动态规划来写 字符距离
         int m = first.length();

@@ -1,11 +1,11 @@
-package 面试题;
+package interview;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Csy
- * @Classname 面试题.LeetCode0406
+ * @Classname interview.LeetCode0406
  * @date 2022-05-16 15:52
  * @Description TODO
  */
